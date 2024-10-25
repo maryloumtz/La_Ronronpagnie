@@ -1,16 +1,17 @@
 $bg-color : #F3761E ;
 
 
-@font-face {
-    font-family: 'VLADIMIR';
-    src: url('/font/VLADIMIR.TTF');
-}
+//@font-face {
+//    font-family: 'VLADIMIR';
+//    src: url('/font/VLADIMIR.TTF');
+//}
 
 .btn1{
     background-color: $bg-color;
 }
 
-.h1{
-    font-family: 'VLADIMIR';
+h1{
+    font-family: 'Arial';
+    color : red;
 }
 
