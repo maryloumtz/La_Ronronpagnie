@@ -1,12 +1,13 @@
 @font-face {
-    font-family: 'VLADIMIR';
-    src: url('/font/VLADIMIR.TTF');
+  font-family: "VLADIMIR";
+  src: url("/font/VLADIMIR.TTF");
+}
+.btn1 {
+  background-color: #F3761E;
 }
 
-.btn1{
-    background-color: #F3761E ;
+.h1 {
+  font-family: "VLADIMIR";
 }
 
-.h1{
-    font-family: 'VLADIMIR';
-}
+/*# sourceMappingURL=carte.css.map */
