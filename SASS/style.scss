@@ -1,0 +1,41 @@
+body{
+    background-color: #FFFBF0;
+}
+
+.collapse {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 21px;
+    
+}
+
+.navbar-brand{
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.navbar {
+    background-color:#E3CFC6;
+    opacity: 80%;
+    z-index: 1;
+    position: relative;
+    backdrop-filter: blur(10px);
+}  
+
+.bgimg {
+    position: relative;
+    z-index: 0;
+   top: -152px; 
+}
+
+.boutton{
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+}
+
+.btn{
+    margin-right: 50px;
+}
