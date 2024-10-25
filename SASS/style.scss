@@ -39,3 +39,15 @@ body{
 .btn{
     margin-right: 50px;
 }
+
+.navbar-nav{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.centre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

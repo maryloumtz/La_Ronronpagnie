@@ -39,4 +39,16 @@ body {
   margin-right: 50px;
 }
 
+.navbar-nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.centre {
+  display: flex;
+  justify-self: center;
+  flex-direction: column;
+}
+
 /*# sourceMappingURL=style.css.map */
