@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 $font-family_h: "vladimir script";
+$font-family_p: "Lato" ;
+$font-weight: 400;
 
 $color_h1: #8C4739;
 $font-size_h1 : 46px;
@@ -7,7 +11,7 @@ $margin_h1: 38px 635px 67px 635px;
 $background-color_btn: #F3761E;
 $padding_btn : 15px 64px; 
 $font-size_btn : 31px ;
-$margin_btn : 0 582px 191px 582px ;
+$margin_btn : 0 auto 191px auto ;
 $border_btn : 41px;
 
 $margin-bottom_separation: 139.24px;
@@ -24,7 +28,7 @@ $margin-right_light : 77px ;
 
 
 $width_fond: 100%;
-$height_fond: 735px;
+$height_fond: 842px;;
 
 $margin_pclair : 0 44px 38px 45px ;
 $font-size_texte : 21px ;
@@ -40,15 +44,26 @@ $color_foncé : #622622 ;
 
 $border-radius_right : 0 51px;
 $background-color_green : #C2D07B ;
+$margin_green : 107px;
 
 $width_color : 20% ;
+$height_color : 735px ;
+
+$margin-bottom_sepa : 147px ;
+
+$color_vert : #61781E ;
 
 *{
     margin: 0;
     padding: 0;
 }
 
-.carte {
+body {
+    background-color: #FFFBF0;
+}
+
+
+.page {
 	display: flex;
     justify-content: center;
     flex-direction: column;
@@ -69,16 +84,17 @@ $width_color : 20% ;
     margin: $margin_btn;
     border-radius: $border_btn;
     border-color: $background-color_btn;
+    font-weight: $font-weight ;
 }
 
 h1 {
 	font-family: $font-family_h;
+    font-weight: $font-weight;
 	color: $color_h1;
     display: flex;
     justify-content: center;
     font-size: $font-size_h1;
     margin: $margin_h1;
-    font-weight: 400;
 }
 
 .separation{
@@ -91,6 +107,7 @@ h1 {
 
 h2{
     font-family: $font-family_h;
+    font-weight: $font-weight;
     color: $color_h1;
     font-size: $font-size_h2;
     display: flex;
@@ -98,15 +115,16 @@ h2{
     margin-bottom: $margin-bottom_h2;
 }
 
-.boissonsC{
+.Carte{
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
     width: $width_fond;
     height: $height_fond;
+    margin-bottom: $margin-bottom_sepa;
 }
 
-.coffee{
+.RectangleG{
     border-radius: $border-radius_left;
     background-color: $background-color_light;
     margin-right: $margin-right_light;
@@ -114,25 +132,28 @@ h2{
     justify-content: center;
     flex-direction: column;
     width: $width_color;
+    height: $height_color;
 }
 
-.imgcaffé{
+.imgcarte{
     padding: $padding_img;
 }
 
-.fd_clair{
+.hG{
     padding: $padding_titre;
     font-family: $font-family_h;
+    font-weight: $font-weight;
     color: $color_h1;
     font-size: $font-size_titre;
 }
 
-.p_clair{
+.p{
     margin: $margin_pclair;
     font-size: $font-size_texte;
+    font-family: $font-family_p;
 }
 
-.chocolat{
+.RectangleD{
     border-radius: $border-radius_left;
     background-color: $background-color_dark;
     margin-left: $margin-left_dark ;
@@ -140,24 +161,29 @@ h2{
     justify-content: center;
     flex-direction: column;
     width: $width_color;
+    height: $height_color;
 }
 
-.fd_foncé{
+.hD{
     padding: $padding_titre;
     font-family: $font-family_h;
+    font-weight: $font-weight;
     color: $color_foncé ;
     font-size: $font-size_titre;
 }
 
-.matcha{
+.RectangleM{
     border-radius: $border-radius_right;
     background-color: $background-color_green;
     width: $width_color;
+    height: $height_color;
+    margin-top: $margin_green;
 }
 
-.fd_vert{
+.hM{
     padding: $padding_titre;
     font-family: $font-family_h;
-    color: $color_foncé ;
+    font-weight: $font-weight;
+    color: $color_vert  ;
     font-size: $font-size_titre;
 }

@@ -1,10 +1,14 @@
-@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
 }
 
-.carte {
+body {
+  background-color: #FFFBF0;
+}
+
+.page {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -21,19 +25,20 @@
   padding: 15px 64px;
   font-family: "vladimir script";
   font-size: 31px;
-  margin: 0 582px 191px 582px;
+  margin: 0 auto 191px auto;
   border-radius: 41px;
   border-color: #F3761E;
+  font-weight: 400;
 }
 
 h1 {
   font-family: "vladimir script";
+  font-weight: 400;
   color: #8C4739;
   display: flex;
   justify-content: center;
   font-size: 46px;
   margin: 38px 635px 67px 635px;
-  font-weight: 400;
 }
 
 .separation {
@@ -46,6 +51,7 @@ h1 {
 
 h2 {
   font-family: "vladimir script";
+  font-weight: 400;
   color: #8C4739;
   font-size: 75px;
   display: flex;
@@ -53,15 +59,16 @@ h2 {
   margin-bottom: 139px;
 }
 
-.boissonsC {
+.Carte {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
   width: 100%;
-  height: 735px;
+  height: 842px;
+  margin-bottom: 147px;
 }
 
-.coffee {
+.RectangleG {
   border-radius: 51px 0;
   background-color: #E3CFC6;
   margin-right: 77px;
@@ -69,25 +76,28 @@ h2 {
   justify-content: center;
   flex-direction: column;
   width: 20%;
+  height: 735px;
 }
 
-.imgcaffé {
+.imgcarte {
   padding: 29px 41px 10px 41px;
 }
 
-.fd_clair {
+.hG {
   padding: 0 41px 26px 41px;
   font-family: "vladimir script";
+  font-weight: 400;
   color: #8C4739;
   font-size: 36px;
 }
 
-.p_clair {
+.p {
   margin: 0 44px 38px 45px;
   font-size: 21px;
+  font-family: "Lato";
 }
 
-.chocolat {
+.RectangleD {
   border-radius: 51px 0;
   background-color: #A36B5E;
   margin-left: 81px;
@@ -95,25 +105,30 @@ h2 {
   justify-content: center;
   flex-direction: column;
   width: 20%;
+  height: 735px;
 }
 
-.fd_foncé {
+.hD {
   padding: 0 41px 26px 41px;
   font-family: "vladimir script";
+  font-weight: 400;
   color: #622622;
   font-size: 36px;
 }
 
-.matcha {
+.RectangleM {
   border-radius: 0 51px;
   background-color: #C2D07B;
   width: 20%;
+  height: 735px;
+  margin-top: 107px;
 }
 
-.fd_vert {
+.hM {
   padding: 0 41px 26px 41px;
   font-family: "vladimir script";
-  color: #622622;
+  font-weight: 400;
+  color: #61781E;
   font-size: 36px;
 }
 
