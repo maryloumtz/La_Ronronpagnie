@@ -2,6 +2,36 @@ body {
   background-color: #FFFBF0;
 }
 
+h1 {
+  font-family: "vladimir script";
+  color: #4B332B;
+}
+
+p {
+  font-family: "Lato";
+  color: #4B332B;
+  font-size: 21px;
+  font-weight: 400;
+}
+
+button {
+  font-family: "vladimir script" !important;
+  color: #000000 !important;
+  background-color: #F3761E !important;
+  border-color: #F3761E !important;
+  border-radius: 43px !important;
+  padding: 15px 64px !important;
+  width: bla !important;
+  height: auto !important;
+  font-size: 31px !important;
+  font-weight: 400 !important;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset !important;
+}
+button:hover {
+  background-color: #C2D07B !important;
+  border-color: #C2D07B !important;
+}
+
 .collapse {
   display: flex;
   justify-content: center;
@@ -21,6 +51,13 @@ body {
   z-index: 1;
   position: relative;
   backdrop-filter: blur(10px);
+}
+
+.nav-link {
+  font-family: "vladimir script" !important;
+  font-size: 31px !important;
+  font-weight: 400 !important;
+  color: #4B332B !important;
 }
 
 .bgimg {
@@ -47,8 +84,68 @@ body {
 
 .centre {
   display: flex;
-  justify-self: center;
+  justify-content: center;
+  padding-bottom: 188px;
+  padding-top: 28px;
+}
+
+.information {
+  padding-top: 167.24px;
+  padding-bottom: 67px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.horaire {
+  display: flex;
   flex-direction: column;
+  padding-left: 57px;
+  color: #4B332B;
+  gap: 30px;
+}
+.horaire h2 {
+  font-family: "vladimir script";
+  font-size: 36px;
+  font-weight: 400;
+}
+.horaire p {
+  font-family: "Lato";
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.foter {
+  background-color: #C2D07B;
+  display: flex;
+  justify-content: center;
+}
+
+.foot {
+  text-align: left;
+}
+.foot h2 {
+  font-family: "vladimir script";
+  font-size: 36px;
+  font-weight: 400;
+  padding-top: 38px;
+}
+
+.col-4 {
+  text-align: center;
+}
+
+.rs1, .rs2, .rs3 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.rs {
+  margin-right: 20px;
+}
+
+.rs3 {
+  margin-left: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
