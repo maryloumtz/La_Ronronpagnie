@@ -1,0 +1,124 @@
+body {
+  background-color: #FFFBF0;
+}
+
+h1 {
+  font-family: "Vladimir Script", cursive;
+  color: #8C4739;
+  font-size: 75px;
+  text-align: center;
+  margin-top: 400px;
+  margin-bottom: 160px;
+}
+
+.container, .container2, .container3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  margin: 0px;
+  margin: 0px auto;
+  width: 90%;
+}
+
+.container2 {
+  padding-top: 100px;
+}
+
+.container3 {
+  margin-bottom: 400px;
+}
+
+.rectangle1 {
+  width: 379px;
+  height: 735px;
+  background-color: #E3CFC6;
+  border-top-left-radius: 51px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 51px;
+  padding: 20px;
+}
+
+.rectangle2 {
+  width: 379px;
+  height: 735px;
+  background-color: #C2D07B;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 51px;
+  border-bottom-left-radius: 51px;
+  border-bottom-right-radius: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  margin-top: 80px;
+}
+
+.rectangle3 {
+  width: 379px;
+  height: 735px;
+  background-color: #A36B5E;
+  border-top-left-radius: 51px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 51px;
+  padding: 20px;
+}
+
+h2, h3 {
+  font-family: "Vladimir Script", cursive;
+  font-size: 42px;
+  margin-left: 40px;
+  margin-top: 7px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  color: #622622;
+}
+
+h3 {
+  color: #61781E;
+}
+
+h4 {
+  font-family: "Vladimir Script", cursive;
+  color: #8C4739;
+  font-size: 75px;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 160px;
+}
+
+.image-chat {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  margin: 0px;
+  margin: 0px auto;
+  width: 90%;
+  padding-top: 100px;
+}
+
+img {
+  width: 295px;
+  height: 295px;
+  margin-top: 28px;
+  margin-left: 40px;
+}
+
+p {
+  font-size: 21.6px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: justify;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+
+/*# sourceMappingURL=style.css.map */

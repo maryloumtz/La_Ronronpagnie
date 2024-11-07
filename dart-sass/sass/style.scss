@@ -1,0 +1,133 @@
+$background-color: #FFFBF0;
+$text-color: #8C4739;
+$font-family: 'Vladimir Script', cursive;
+$heading-font-size: 75px;
+$subheading-font-size: 42px;
+$container-width: 90%;
+$rectangle1-bg: #E3CFC6;
+$rectangle2-bg: #C2D07B;
+$rectangle3-bg: #A36B5E;
+
+
+body {
+  background-color: $background-color;
+}
+
+h1 {
+  font-family: $font-family;
+  color: $text-color;
+  font-size: $heading-font-size;
+  text-align: center;
+  margin-top: 400px;
+  margin-bottom: 160px;
+}
+
+.container, .container2, .container3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  margin: 0px;
+  margin: 0px auto;
+  width: $container-width;
+}
+
+.container2 {
+  padding-top: 100px;
+}
+
+.container3 {
+  margin-bottom: 400px;
+}
+
+.rectangle1 {
+  width: 379px;
+  height: 735px;
+  background-color: $rectangle1-bg;
+  border-top-left-radius: 51px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 51px;
+  padding: 20px;
+}
+
+.rectangle2 {
+  width: 379px;
+  height: 735px;
+  background-color: $rectangle2-bg;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 51px;
+  border-bottom-left-radius: 51px;
+  border-bottom-right-radius: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  margin-top: 80px;
+}
+
+.rectangle3 {
+  width: 379px;
+  height: 735px;
+  background-color: $rectangle3-bg;
+  border-top-left-radius: 51px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 51px;
+  padding: 20px;
+}
+
+h2, h3 {
+  font-family: $font-family;
+  font-size: $subheading-font-size;
+  margin-left: 40px;
+  margin-top: 7px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  color: #622622;
+}
+
+h3 {
+  color: #61781E;
+}
+
+h4 {
+  font-family: $font-family;
+  color: $text-color;
+  font-size: $heading-font-size;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 160px;
+}
+
+.image-chat {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  margin: 0px;
+  margin: 0px auto;
+  width: $container-width;
+  padding-top: 100px;
+}
+
+img {
+  width: 295px;
+  height: 295px;
+  margin-top: 28px;
+  margin-left: 40px;
+}
+
+p {
+  font-size: 21.6px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: justify;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
