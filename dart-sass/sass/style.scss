@@ -1,17 +1,163 @@
-$bg-color : #F3761E ;
+$font-family_h: "vladimir script";
+
+$color_h1: #8C4739;
+$font-size_h1 : 46px;
+$margin_h1: 38px 635px 67px 635px;
+
+$background-color_btn: #F3761E;
+$padding_btn : 15px 64px; 
+$font-size_btn : 31px ;
+$margin_btn : 0 582px 191px 582px ;
+$border_btn : 41px;
+
+$margin-bottom_separation: 139.24px;
+
+$font-size_h2 : 75px ;
+$margin-bottom_h2 : 139px;
+
+$margin_carte : 0 4.563em 9.25em 4.5em;
+
+$border-radius_left : 51px 0 ;
+
+$background-color_light : #E3CFC6 ;
+$margin-right_light : 77px ;
 
 
-//@font-face {
-//    font-family: 'VLADIMIR';
-//    src: url('/font/VLADIMIR.TTF');
-//}
+$width_fond: 100%;
+$height_fond: 735px;
 
-.btn1{
-    background-color: $bg-color;
+$margin_pclair : 0 44px 38px 45px ;
+$font-size_texte : 21px ;
+
+$padding_img : 29px 41px 10px 41px ;
+
+$padding_titre : 0 41px 26px 41px ;
+$font-size_titre : 36px ;
+
+$background-color_dark : #A36B5E ;
+$margin-left_dark : 81px ;
+$color_foncé : #622622 ;
+
+$border-radius_right : 0 51px;
+$background-color_green : #C2D07B ;
+
+$width_color : 20% ;
+
+*{
+    margin: 0;
+    padding: 0;
 }
 
-h1{
-    font-family: 'Arial';
-    color : red;
+.carte {
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
+.header {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.btn1 {
+	background-color: $background-color_btn;
+    padding: $padding_btn;
+    font-family: $font-family_h;
+    font-size: $font-size_btn;
+    margin: $margin_btn;
+    border-radius: $border_btn;
+    border-color: $background-color_btn;
+}
+
+h1 {
+	font-family: $font-family_h;
+	color: $color_h1;
+    display: flex;
+    justify-content: center;
+    font-size: $font-size_h1;
+    margin: $margin_h1;
+    font-weight: 400;
+}
+
+.separation{
+    display: flex;
+    width: 100%;
+    height: 80.76px;
+    justify-content: center;
+    margin-bottom: $margin-bottom_separation;
+}
+
+h2{
+    font-family: $font-family_h;
+    color: $color_h1;
+    font-size: $font-size_h2;
+    display: flex;
+    justify-content: center;
+    margin-bottom: $margin-bottom_h2;
+}
+
+.boissonsC{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: $width_fond;
+    height: $height_fond;
+}
+
+.coffee{
+    border-radius: $border-radius_left;
+    background-color: $background-color_light;
+    margin-right: $margin-right_light;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: $width_color;
+}
+
+.imgcaffé{
+    padding: $padding_img;
+}
+
+.fd_clair{
+    padding: $padding_titre;
+    font-family: $font-family_h;
+    color: $color_h1;
+    font-size: $font-size_titre;
+}
+
+.p_clair{
+    margin: $margin_pclair;
+    font-size: $font-size_texte;
+}
+
+.chocolat{
+    border-radius: $border-radius_left;
+    background-color: $background-color_dark;
+    margin-left: $margin-left_dark ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: $width_color;
+}
+
+.fd_foncé{
+    padding: $padding_titre;
+    font-family: $font-family_h;
+    color: $color_foncé ;
+    font-size: $font-size_titre;
+}
+
+.matcha{
+    border-radius: $border-radius_right;
+    background-color: $background-color_green;
+    width: $width_color;
+}
+
+.fd_vert{
+    padding: $padding_titre;
+    font-family: $font-family_h;
+    color: $color_foncé ;
+    font-size: $font-size_titre;
+}
