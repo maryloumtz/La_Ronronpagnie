@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 * {
   margin: 0;
 }
@@ -80,6 +81,139 @@ form {
 
 .gb {
   margin-top: 70vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #FFFBF0;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.btn1 {
+  background-color: #F3761E;
+  padding: 15px 64px;
+  font-family: "vladimir script";
+  font-size: 31px;
+  margin: 0 auto 191px auto;
+  border-radius: 41px;
+  border-color: #F3761E;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: "vladimir script";
+  font-weight: 400;
+  color: #8C4739;
+  display: flex;
+  justify-content: center;
+  font-size: 46px;
+  margin: 38px 635px 67px 635px;
+}
+
+.separation {
+  display: flex;
+  width: 100%;
+  height: 80.76px;
+  justify-content: center;
+  margin-bottom: 139.24px;
+}
+
+h2 {
+  font-family: "vladimir script";
+  font-weight: 400;
+  color: #8C4739;
+  font-size: 75px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 139px;
+}
+
+.Carte {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: 100%;
+  height: 842px;
+  margin-bottom: 147px;
+}
+
+.RectangleG {
+  border-radius: 51px 0;
+  background-color: #E3CFC6;
+  margin-right: 77px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 20%;
+  height: 735px;
+}
+
+.imgcarte {
+  padding: 29px 41px 10px 41px;
+}
+
+.hG {
+  padding: 0 41px 26px 41px;
+  font-family: "vladimir script";
+  font-weight: 400;
+  color: #8C4739;
+  font-size: 36px;
+}
+
+.p {
+  margin: 0 44px 38px 45px;
+  font-size: 21px;
+  font-family: "Lato";
+}
+
+.RectangleD {
+  border-radius: 51px 0;
+  background-color: #A36B5E;
+  margin-left: 81px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 20%;
+  height: 735px;
+}
+
+.hD {
+  padding: 0 41px 26px 41px;
+  font-family: "vladimir script";
+  font-weight: 400;
+  color: #622622;
+  font-size: 36px;
+}
+
+.RectangleM {
+  border-radius: 0 51px;
+  background-color: #C2D07B;
+  width: 20%;
+  height: 735px;
+  margin-top: 107px;
+}
+
+.hM {
+  padding: 0 41px 26px 41px;
+  font-family: "vladimir script";
+  font-weight: 400;
+  color: #61781E;
+  font-size: 36px;
 }
 
 body {
