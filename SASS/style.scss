@@ -7,6 +7,7 @@ $--bs-btn-color : #000000;
 
 body{
     background-color: #FFFBF0;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -19,6 +20,7 @@ p {
    color: $color; 
    font-size: 21px;
    font-weight: 400;
+   text-align: justify;
 }
 
 button {
@@ -88,6 +90,14 @@ button {
     width: 50%;
     display: flex;
     justify-content: space-around;
+}
+
+.roux {
+    margin-top: 80vh;
+}
+
+.gris{
+    margin-top: 100vh;
 }
 
 .centre{
