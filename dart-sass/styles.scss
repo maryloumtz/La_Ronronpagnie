@@ -1,3 +1,167 @@
+$background-color: #FFFBF0;
+$font-family: "Vladimir Script", cursive;
+$font-weight: 500;
+$main-color: #8C4739;
+$font-size-large: 75px;
+$font-size-medium: 42px;
+$font-size-small: 21.6px;
+$container-width: 90%;
+$image-width: 330px;
+$image-height: 330px;
+$margin-large: 400px;
+$margin-medium: 160px;
+$margin-small: 25px;
+$margin-tiny: 10px;
+$padding: 20px;
+$rectangle1-bg-color: #E3CFC6;
+$rectangle2-bg-color: #C2D07B;
+$rectangle3-bg-color: #A36B5E;
+$h2-color: #622622;
+$h3-color: #61781E;
+
 body {
-    background: #000000;
+  background-color: $background-color;
+}
+
+h1 {
+  font-family: $font-family;
+  font-weight: $font-weight;
+  color: $main-color;
+  font-size: $font-size-large;
+  text-align: center;
+  margin-top: $margin-large;
+  margin-bottom: $margin-medium;
+}
+
+.container, .container2, .container3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: $margin-small;
+  margin: 0 auto;
+  width: $container-width;
+}
+
+.container2 {
+  padding-top: 100px;
+}
+
+.container3 {
+  margin-bottom: $margin-large;
+}
+
+.rectangle1 {
+  position: relative;
+  width: 379px;
+  height: 735px;
+  background-color: $rectangle1-bg-color;
+  border-top-left-radius: 51px;
+  border-bottom-right-radius: 51px;
+  padding: $padding;
+}
+
+.rectangle2 {
+  width: 379px;
+  height: 735px;
+  background-color: $rectangle2-bg-color;
+  border-top-right-radius: 51px;
+  border-bottom-left-radius: 51px;
+  padding: 18px;
+  padding-top: $padding;
+  padding-bottom: 40px;
+  margin-top: 80px;
+}
+
+.rectangle3 {
+  width: 379px;
+  height: 735px;
+  background-color: $rectangle3-bg-color;
+  border-top-left-radius: 51px;
+  border-bottom-right-radius: 51px;
+  padding: 18px;
+}
+
+h2, h3 {
+  font-family: $font-family;
+  font-weight: $font-weight;
+  font-size: $font-size-medium;
+  margin-left: 40px;
+  margin-top: 7px;
+  margin-bottom: 0;
+}
+
+h2 {
+  color: $h2-color;
+}
+
+h3 {
+  color: $h3-color;
+}
+
+h4 {
+  font-family: $font-family;
+  font-weight: $font-weight;
+  color: $main-color;
+  font-size: $font-size-large;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: $margin-medium;
+}
+
+.image-chat {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: $margin-small;
+  margin: 0 auto;
+  width: $container-width;
+  padding-top: 100px;
+}
+
+img {
+  width: $image-width;
+  height: $image-height;
+  margin-top: $margin-tiny;
+  margin-left: $margin-small;
+}
+
+p {
+  font-size: $font-size-small;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: justify;
+  margin-left: $margin-small;
+  margin-right: $margin-small;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+/* Paramètres Pattes */
+.image-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.chat1 {
+  position: relative;
+  z-index: 2; 
+  width: $image-width;
+  height: $image-height;
+  margin-top: $margin-tiny;
+  margin-left: 28px;
+}
+
+.patte {
+  position: absolute;
+  top: 220px; 
+  left: 300px; 
+  z-index: 1; 
+  width: 85px;
+  height: 95px;
+}
+
+h2, p {
+  margin-left: 28px;
 }

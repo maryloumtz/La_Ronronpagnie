@@ -4,6 +4,7 @@ body {
 
 h1 {
   font-family: "Vladimir Script", cursive;
+  font-weight: 500;
   color: #8C4739;
   font-size: 75px;
   text-align: center;
@@ -49,8 +50,8 @@ h1 {
   border-top-right-radius: 51px;
   border-bottom-left-radius: 51px;
   border-bottom-right-radius: 0px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 18px;
+  padding-right: 18px;
   padding-top: 20px;
   padding-bottom: 40px;
   margin-top: 80px;
@@ -64,11 +65,13 @@ h1 {
   border-top-right-radius: 0px;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 51px;
-  padding: 20px;
+  padding: 18px;
 }
+
 
 h2, h3 {
   font-family: "Vladimir Script", cursive;
+  font-weight: 500;
   font-size: 42px;
   margin-left: 40px;
   margin-top: 7px;
@@ -85,6 +88,7 @@ h3 {
 
 h4 {
   font-family: "Vladimir Script", cursive;
+  font-weight: 500;
   color: #8C4739;
   font-size: 75px;
   text-align: center;
@@ -105,20 +109,64 @@ h4 {
 }
 
 img {
-  width: 295px;
-  height: 295px;
-  margin-top: 28px;
-  margin-left: 40px;
+  width: 330px;
+  height: 330px;
+  margin-top: 10px;
+  margin-left: 25px;
 }
 
 p {
   font-size: 21.6px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-align: justify;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 25px;
+  margin-right: 25px;
   margin-top: 25px;
-  margin-bottom: 0px;
+  margin-bottom:20px;
 }
+
+
+/* Paramètres Pattes */
+
+.rectangle1 {
+  position: relative;
+  width: 379px;
+  height: 735px;
+  background-color: #E3CFC6;
+  border-top-left-radius: 51px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 51px;
+  padding: 20px;
+}
+
+.image-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.chat1 {
+  position: relative;
+  z-index: 2; 
+  width: 330px;
+  height: 330px;
+  margin-top: 10px;
+  margin-left: 28px;
+}
+
+.patte {
+  position: absolute;
+  top: 220px; 
+  left: 300px; 
+  z-index: 1; 
+  width: 85px;
+  height: 95px;
+}
+
+h2, p {
+  margin-left: 28px;
+}
+
 
 /*# sourceMappingURL=style.css.map */
