@@ -90,6 +90,134 @@ form {
 
 body {
   background-color: #FFFBF0;
+  overflow-x: hidden;
+}
+
+a {
+  color: #622622 !important;
+  text-decoration: none !important;
+  font-family: "Lato";
+  font-size: 21px;
+}
+
+img {
+  z-index: 2;
+}
+
+button {
+  font-family: "vladimir script" !important;
+  color: #000000 !important;
+  background-color: #F3761E !important;
+  border-color: #F3761E !important;
+  border-radius: 43px !important;
+  padding: 15px 64px !important;
+  width: bla !important;
+  height: auto !important;
+  font-size: 31px !important;
+  font-weight: 400 !important;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset !important;
+  transition: 0.5s;
+  z-index: 4;
+  width: auto;
+}
+
+button:hover {
+  background-color: #C2D07B !important;
+  border-color: #C2D07B !important;
+}
+
+.collapse {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 21px;
+}
+
+.jsp {
+  width: 100%;
+  margin-top: -152px;
+}
+
+.bgimg {
+  position: relative;
+  z-index: 0;
+  top: -152px;
+  width: 100%;
+}
+
+.navbar-nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.roux {
+  margin-top: 80vh;
+}
+
+.gris {
+  margin-top: 100vh;
+}
+
+.navbar-brand {
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.navbar {
+  background-color: #E3CFC6;
+  opacity: 80% !important;
+  z-index: 1;
+  position: relative;
+  backdrop-filter: blur(10px);
+}
+
+.nav-link {
+  font-family: "vladimir script" !important;
+  font-size: 31px !important;
+  font-weight: 400 !important;
+  color: #4B332B !important;
+}
+
+.navbar {
+  position: relative;
+}
+
+.dh {
+  margin-top: 15vh;
+}
+
+.db {
+  margin-top: 60vh;
+}
+
+.gh {
+  margin-top: 20vh;
+}
+
+.gb {
+  margin-top: 70vh;
+}
+
+.pattoune {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+}
+
+.droite {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.gauche {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
 }
 
 .page {
@@ -111,7 +239,7 @@ body {
   font-size: 31px;
   margin: 0 auto 191px auto;
   border-radius: 41px;
-  border-color: #F3761E;
+  border: none;
   font-weight: 400;
 }
 
@@ -121,7 +249,7 @@ h1 {
   color: #8C4739;
   display: flex;
   justify-content: center;
-  font-size: 46px;
+  font-size: 95px;
   margin: 38px 635px 67px 635px;
 }
 
@@ -136,8 +264,8 @@ h1 {
 h2 {
   font-family: "vladimir script";
   font-weight: 400;
-  color: #8C4739;
-  font-size: 75px;
+  color: #8C4739 !important;
+  font-size: 75px !important;
   display: flex;
   justify-content: center;
   margin-bottom: 139px;
@@ -163,8 +291,34 @@ h2 {
   height: 735px;
 }
 
+.right {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+}
+
+.orange {
+  margin-top: -200px;
+  z-index: 0;
+  margin-left: -10px;
+}
+
+.left {
+  width: 20%;
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.gp {
+  margin-top: 150px;
+  z-index: 0;
+}
+
 .imgcarte {
   padding: 29px 41px 10px 41px;
+  z-index: 2;
 }
 
 .hG {
@@ -214,6 +368,81 @@ h2 {
   font-weight: 400;
   color: #61781E;
   font-size: 36px;
+}
+
+.centre {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 188px;
+  padding-top: 28px;
+}
+
+.information {
+  padding-top: 167.24px;
+  padding-bottom: 67px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.horaire {
+  display: flex;
+  flex-direction: column;
+  padding-left: 57px;
+  color: #4B332B;
+  gap: 30px;
+}
+.horaire h2 {
+  font-family: "vladimir script";
+  font-size: 36px;
+  font-weight: 400;
+}
+.horaire p {
+  font-family: "Lato";
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.foter {
+  background-color: #C2D07B;
+  display: flex;
+  justify-content: center;
+}
+.foter p {
+  color: #4B332B !important;
+  text-decoration: none !important;
+  font-family: "Lato";
+  font-size: 21px;
+}
+
+.foot {
+  text-align: left;
+}
+.foot h2 {
+  display: flex;
+  justify-content: left;
+  font-family: "vladimir script";
+  font-size: 36px !important;
+  color: #000000 !important;
+  font-weight: 400;
+  padding-top: 38px;
+}
+
+.col-4 {
+  text-align: center;
+}
+
+.rs1, .rs2, .rs3 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.rs {
+  margin-right: 20px;
+}
+
+.rs3 {
+  margin-left: 20px;
 }
 
 body {
@@ -357,6 +586,7 @@ button:hover {
   font-size: 36px;
   font-weight: 400;
   padding-top: 38px;
+  text-align: left;
 }
 
 .col-4 {
