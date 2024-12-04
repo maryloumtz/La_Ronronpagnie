@@ -95,12 +95,17 @@ button {
     border-color: #C2D07B !important;
   }
 
+.container-fluid {
+    display: flex;
+    align-items: center;
+}
+
 .collapse {
 display: flex;
-justify-content: center;
+justify-content: end;
 text-align: center;
 font-size: 21px;
-
+width: 100%;
 }
 
 .jsp {
@@ -118,7 +123,14 @@ font-size: 21px;
     width: 50%;
     display: flex;
     justify-content: space-around;
+    padding-top: 2vh;
+    padding-right: 10vw;
   }
+
+.résatable {
+    display: flex;
+    justify-content: end;
+}
   
   .roux {
     margin-top: 80vh;

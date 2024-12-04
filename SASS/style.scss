@@ -31,7 +31,7 @@ button {
     border-color: #F3761E !important;
     border-radius: 43px !important;
     padding: 15px 64px !important;
-    width: bla !important;
+    width: max-content !important;
     height: auto !important;
     font-size: 31px !important;
     font-weight: 400 !important;
@@ -53,6 +53,10 @@ button {
     margin-left: 50px;
     margin-top: 10px;
     margin-bottom: 10px;
+}   
+
+.navbar-nav {
+    padding-right: 0px !important;
 }
 
 .navbar {
